@@ -9,7 +9,7 @@ import { STATUS } from './CitizenDashboard.jsx';
    Content types the admin can add / edit / delete.
    f = [fieldName, label, inputType, options?]
 ---------------------------------------------------------------- */
-const LEVELS = ['secondary', 'higher-secondary', 'undergraduate', 'masters', 'phd'];
+const LEVELS = ['undergraduate', 'masters', 'phd'];
 const CONTENT = {
   scholarships: {
     bn: 'বৃত্তি', en: 'Scholarships', icon: 'fa-graduation-cap',

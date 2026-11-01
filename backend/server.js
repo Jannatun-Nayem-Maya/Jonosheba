@@ -9,6 +9,7 @@ import bloodRoutes from './routes/blood.js';
 import scholarshipRoutes from './routes/scholarships.js';
 import apiRoutes from './routes/api.js';
 import adminRoutes from './routes/admin.js';
+import liveRoutes from './routes/live.js';
 
 process.env.JWT_SECRET ||= 'dev_only_secret_change_me';
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/jonoseba_db';
@@ -26,6 +27,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/blood', bloodRoutes);
 app.use('/api/scholarships', scholarshipRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/live', liveRoutes);
 app.use('/api', apiRoutes);
 
 // Central error handler (also catches multer upload errors)
