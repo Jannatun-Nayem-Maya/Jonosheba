@@ -22,11 +22,22 @@ export default function Navbar() {
     nav('/');
   };
 
+  // Today's date in Bangladesh time: Bangla when বাংলা is selected, English otherwise
+  const today = new Date().toLocaleDateString(lang === 'bn' ? 'bn-BD' : 'en-GB', {
+    day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Asia/Dhaka',
+  });
+
   return (
+    <>
+    <div className="topstrip"><div className="container">{today}</div></div>
     <header className="navbar">
       <div className="container nav-inner">
         <Link to="/" className="brand">
-          <i className="fa-solid fa-hand-holding-heart" /> {t('জনসেবা পোর্টাল', 'Jonoseba Portal')}
+          <span className="brand-icon"><i className="fa-solid fa-hand-holding-heart" /></span>
+          <span className="brand-text">
+            <span className="brand-name"><b className="r">{t('জন', 'Jono')}</b><b className="g">{t('সেবা', 'seba')}</b></span>
+            <small>{t('এক ঠিকানায় নাগরিক সেবা', 'Citizen services in one place')}</small>
+          </span>
         </Link>
         <button className="nav-toggle" onClick={() => setOpen(!open)} aria-label="Menu">
           <i className={`fa-solid ${open ? 'fa-xmark' : 'fa-bars'}`} />
@@ -70,5 +81,6 @@ export default function Navbar() {
         </nav>
       </div>
     </header>
+    </>
   );
 }
