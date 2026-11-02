@@ -1,0 +1,278 @@
+[
+  {
+    "slug": "land-portal",
+    "category": "land",
+    "titleBn": "ভূমি সেবা বাতায়ন",
+    "titleEn": "Land Service Portal",
+    "summaryBn": "নামজারি, ভূমি উন্নয়ন কর ও ভূমি রেকর্ডসহ বিভিন্ন ভূমি সেবার কেন্দ্রীয় প্রবেশপথ।",
+    "summaryEn": "Official entry point for mutation, land development tax and land records.",
+    "officialUrl": "https://land.gov.bd/",
+    "stepsBn": [
+      "অফিশিয়াল ভূমি বাতায়ন খুলুন।",
+      "প্রয়োজনীয় সেবা নির্বাচন করুন।",
+      "সরকারি পোর্টালের নির্দেশনা অনুসরণ করুন।"
+    ],
+    "stepsEn": [
+      "Open the official land portal.",
+      "Select the relevant service.",
+      "Follow instructions on the government portal."
+    ],
+    "documentsBn": [],
+    "documentsEn": [],
+    "published": true,
+    "sourceVerifiedAt": "2026-11-02"
+  },
+  {
+    "slug": "mutation",
+    "category": "land",
+    "titleBn": "ই-নামজারি",
+    "titleEn": "E-Mutation",
+    "summaryBn": "জমির নামজারির জন্য সরকারি ভূমি পোর্টাল থেকে সংশ্লিষ্ট সেবায় প্রবেশ করুন।",
+    "summaryEn": "Access the official mutation service through the land portal.",
+    "officialUrl": "https://land.gov.bd/",
+    "stepsBn": [
+      "ভূমি বাতায়নে যান।",
+      "ই-নামজারি সেবা নির্বাচন করুন।",
+      "বর্তমান শর্ত ও কাগজপত্রের তালিকা যাচাই করে আবেদন করুন।"
+    ],
+    "stepsEn": [
+      "Visit the land portal.",
+      "Choose e-Mutation.",
+      "Verify current requirements and apply through the official system."
+    ],
+    "documentsBn": [],
+    "documentsEn": [],
+    "published": true,
+    "sourceVerifiedAt": "2026-11-02"
+  },
+  {
+    "slug": "land-tax",
+    "category": "land",
+    "titleBn": "ভূমি উন্নয়ন কর",
+    "titleEn": "Land Development Tax",
+    "summaryBn": "অনলাইনে ভূমি উন্নয়ন কর সম্পর্কিত সরকারি সেবার প্রবেশপথ।",
+    "summaryEn": "Official entry point for land development tax services.",
+    "officialUrl": "https://land.gov.bd/",
+    "stepsBn": [
+      "ভূমি বাতায়ন খুলুন।",
+      "ভূমি উন্নয়ন কর সেবা নির্বাচন করুন।",
+      "সরকারি নির্দেশনা অনুযায়ী এগিয়ে যান।"
+    ],
+    "stepsEn": [
+      "Open the land portal.",
+      "Select land development tax.",
+      "Follow the official guidance."
+    ],
+    "documentsBn": [],
+    "documentsEn": [],
+    "published": true,
+    "sourceVerifiedAt": "2026-11-02"
+  },
+  {
+    "slug": "land-record",
+    "category": "land",
+    "titleBn": "ভূমি রেকর্ড ও খতিয়ান",
+    "titleEn": "Land Records & Khatian",
+    "summaryBn": "ভূমি রেকর্ড, খতিয়ান ও সংশ্লিষ্ট তথ্যের সরকারি সেবা খুঁজুন।",
+    "summaryEn": "Find official land-record and khatian services.",
+    "officialUrl": "https://land.gov.bd/",
+    "stepsBn": [
+      "ভূমি বাতায়ন খুলুন।",
+      "ভূমি রেকর্ড সম্পর্কিত সেবা নির্বাচন করুন।",
+      "পোর্টালে প্রদর্শিত যাচাইয়ের নিয়ম অনুসরণ করুন।"
+    ],
+    "stepsEn": [
+      "Open the land portal.",
+      "Choose the land records service.",
+      "Follow the verification guidance shown there."
+    ],
+    "documentsBn": [],
+    "documentsEn": [],
+    "published": true,
+    "sourceVerifiedAt": "2026-11-02"
+  },
+  {
+    "slug": "brta",
+    "category": "transport",
+    "titleBn": "বিআরটিএ সার্ভিস পোর্টাল",
+    "titleEn": "BRTA Service Portal",
+    "summaryBn": "ড্রাইভিং লাইসেন্স ও যানবাহনসংক্রান্ত সরকারি অনলাইন সেবার প্রবেশপথ।",
+    "summaryEn": "Official portal for driving licence and related vehicle services.",
+    "officialUrl": "https://bsp.brta.gov.bd/",
+    "stepsBn": [
+      "বিআরটিএ পোর্টালে যান।",
+      "প্রয়োজনে নিবন্ধন বা লগইন করুন।",
+      "আপনার প্রয়োজনীয় সেবা নির্বাচন করুন।"
+    ],
+    "stepsEn": [
+      "Open the BRTA portal.",
+      "Register or sign in if necessary.",
+      "Select your required service."
+    ],
+    "documentsBn": [],
+    "documentsEn": [],
+    "published": true,
+    "sourceVerifiedAt": "2026-11-02"
+  },
+  {
+    "slug": "learner-licence",
+    "category": "transport",
+    "titleBn": "শিক্ষানবিশ ড্রাইভিং লাইসেন্স",
+    "titleEn": "Learner Driving Licence",
+    "summaryBn": "বিআরটিএ পোর্টালে শিক্ষানবিশ ড্রাইভিং লাইসেন্সের আবেদন সংক্রান্ত সেবা।",
+    "summaryEn": "Learner licence application through the official BRTA portal.",
+    "officialUrl": "https://bsp.brta.gov.bd/",
+    "stepsBn": [
+      "বিআরটিএ পোর্টাল খুলুন।",
+      "শিক্ষানবিশ লাইসেন্স সেবা নির্বাচন করুন।",
+      "ফি ও কাগজপত্রের সর্বশেষ নির্দেশনা দেখে এগিয়ে যান।"
+    ],
+    "stepsEn": [
+      "Open BRTA.",
+      "Select the learner licence service.",
+      "Check current fees and documents before proceeding."
+    ],
+    "documentsBn": [],
+    "documentsEn": [],
+    "published": true,
+    "sourceVerifiedAt": "2026-11-02"
+  },
+  {
+    "slug": "licence-renewal",
+    "category": "transport",
+    "titleBn": "ড্রাইভিং লাইসেন্স নবায়ন",
+    "titleEn": "Driving Licence Renewal",
+    "summaryBn": "ড্রাইভিং লাইসেন্স নবায়ন সংক্রান্ত সেবা ও নির্দেশনা।",
+    "summaryEn": "Driving licence renewal information and access.",
+    "officialUrl": "https://bsp.brta.gov.bd/",
+    "stepsBn": [
+      "বিআরটিএ সার্ভিস পোর্টালে যান।",
+      "লাইসেন্স নবায়ন নির্বাচন করুন।",
+      "সরকারি নির্দেশনা অনুসরণ করুন।"
+    ],
+    "stepsEn": [
+      "Visit the BRTA service portal.",
+      "Choose licence renewal.",
+      "Follow the official instructions."
+    ],
+    "documentsBn": [],
+    "documentsEn": [],
+    "published": true,
+    "sourceVerifiedAt": "2026-11-02"
+  },
+  {
+    "slug": "brta-fee",
+    "category": "transport",
+    "titleBn": "বিআরটিএ ফি ক্যালকুলেটর",
+    "titleEn": "BRTA Fee Calculator",
+    "summaryBn": "লাইসেন্স ও সংশ্লিষ্ট সেবার ফি হিসাব করার সরকারি সুবিধা।",
+    "summaryEn": "Official fee calculator for BRTA-related services.",
+    "officialUrl": "https://bsp.brta.gov.bd/",
+    "stepsBn": [
+      "বিআরটিএ পোর্টালে যান।",
+      "Fee Calculator নির্বাচন করুন।",
+      "আপনার সেবার ধরন অনুযায়ী হিসাব দেখুন।"
+    ],
+    "stepsEn": [
+      "Visit BRTA.",
+      "Select Fee Calculator.",
+      "Check the fee for your service type."
+    ],
+    "documentsBn": [],
+    "documentsEn": [],
+    "published": true,
+    "sourceVerifiedAt": "2026-11-02"
+  },
+  {
+    "slug": "rail-ticket",
+    "category": "rail",
+    "titleBn": "বাংলাদেশ রেলওয়ে ই-টিকিট",
+    "titleEn": "Bangladesh Railway E-Ticket",
+    "summaryBn": "ট্রেন টিকিট অনুসন্ধান ও ক্রয়ের সরকারি পোর্টাল।",
+    "summaryEn": "Official Bangladesh Railway train-ticket portal.",
+    "officialUrl": "https://eticket.railway.gov.bd/",
+    "stepsBn": [
+      "অফিশিয়াল ই-টিকিট সাইট খুলুন।",
+      "প্রয়োজনে নিবন্ধন বা লগইন করুন।",
+      "যাত্রার তথ্য দিয়ে টিকিট অনুসন্ধান করুন।"
+    ],
+    "stepsEn": [
+      "Open the official e-ticket site.",
+      "Register or sign in if required.",
+      "Search tickets using your journey details."
+    ],
+    "documentsBn": [],
+    "documentsEn": [],
+    "published": true,
+    "sourceVerifiedAt": "2026-11-02"
+  },
+  {
+    "slug": "police-clearance",
+    "category": "police",
+    "titleBn": "পুলিশ ক্লিয়ারেন্স সার্টিফিকেট",
+    "titleEn": "Police Clearance Certificate",
+    "summaryBn": "পুলিশ ক্লিয়ারেন্সের যোগ্যতা, শর্ত ও অনলাইন আবেদন সম্পর্কিত সরকারি পোর্টাল।",
+    "summaryEn": "Official police clearance eligibility, requirements and application portal.",
+    "officialUrl": "https://pcc.police.gov.bd/",
+    "stepsBn": [
+      "সরকারি পুলিশ ক্লিয়ারেন্স সাইট খুলুন।",
+      "পোর্টালে বর্তমান শর্তাবলি পড়ুন।",
+      "প্রয়োজনীয় তথ্য নিয়ে নিবন্ধন ও আবেদন করুন।"
+    ],
+    "stepsEn": [
+      "Open the official police clearance site.",
+      "Read the current eligibility and requirements.",
+      "Register and apply through the official portal."
+    ],
+    "documentsBn": [],
+    "documentsEn": [],
+    "published": true,
+    "sourceVerifiedAt": "2026-11-02"
+  },
+  {
+    "slug": "e-challan",
+    "category": "fees",
+    "titleBn": "এ-চালান / সরকারি ফি",
+    "titleEn": "A-Challan / Government Fees",
+    "summaryBn": "সরকারি ফি জমা দেওয়ার স্বয়ংক্রিয় চালান ব্যবস্থার প্রবেশপথ।",
+    "summaryEn": "Government automated challan service for applicable fees.",
+    "officialUrl": "https://ibas.finance.gov.bd/acs",
+    "stepsBn": [
+      "সরকারি এ-চালান সাইটে যান।",
+      "প্রয়োজনীয় চালান বা ফি এর ধরন নির্বাচন করুন।",
+      "পেমেন্টের আগে সরকারি নির্দেশনা ও প্রাপক যাচাই করুন।"
+    ],
+    "stepsEn": [
+      "Visit the government A-Challan portal.",
+      "Choose the relevant challan or fee type.",
+      "Verify the recipient and instructions before payment."
+    ],
+    "documentsBn": [],
+    "documentsEn": [],
+    "published": true,
+    "sourceVerifiedAt": "2026-11-02"
+  },
+  {
+    "slug": "grs-complaint",
+    "category": "grs",
+    "titleBn": "সরকারি অভিযোগ প্রতিকার ব্যবস্থা",
+    "titleEn": "Government Grievance Redress (GRS)",
+    "summaryBn": "সরকারি দপ্তরের সেবা নিয়ে অভিযোগ দাখিল ও অগ্রগতি দেখার সরকারি প্ল্যাটফর্ম।",
+    "summaryEn": "Government platform to submit and follow up service-related grievances.",
+    "officialUrl": "https://grs.gov.bd/",
+    "stepsBn": [
+      "জিআরএস সরকারি পোর্টাল খুলুন।",
+      "অভিযোগ দাখিল বা অভিযোগের সর্বশেষ অবস্থা নির্বাচন করুন।",
+      "পোর্টালের নির্দেশনা অনুযায়ী তথ্য দিন।"
+    ],
+    "stepsEn": [
+      "Open the official GRS portal.",
+      "Choose complaint submission or complaint status.",
+      "Follow the portal instructions."
+    ],
+    "documentsBn": [],
+    "documentsEn": [],
+    "published": true,
+    "sourceVerifiedAt": "2026-11-02"
+  }
+]

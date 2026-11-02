@@ -1,0 +1,12 @@
+import {Router} from 'express';
+import GovService from '../models/GovService.js';
+import {protect,adminOnly} from '../middleware/auth.js';
+const router=Router();
+const fields=['slug','category','titleBn','titleEn','summaryBn','summaryEn','officialUrl','stepsBn','stepsEn','documentsBn','documentsEn','published','sourceVerifiedAt'];
+const sanitize=data=>Object.fromEntries(fields.filter(k=>Object.prototype.hasOwnProperty.call(data||{},k)).map(k=>[k,data[k]]));
+router.get('/',async(req,res)=>{const q=req.query.all==='true'?{}:{published:true};if(req.query.all==='true'){return res.status(400).json({message:'Use the admin endpoint for all services'});}res.json(await GovService.find(q).sort({category:1,titleEn:1}).lean());});
+router.get('/admin',protect,adminOnly,async(req,res)=>res.json(await GovService.find().sort({category:1,titleEn:1}).lean()));
+router.post('/admin',protect,adminOnly,async(req,res)=>res.status(201).json(await GovService.create(sanitize(req.body))));
+router.put('/admin/:id',protect,adminOnly,async(req,res)=>{const d=await GovService.findByIdAndUpdate(req.params.id,{$set:sanitize(req.body)},{new:true,runValidators:true});if(!d)return res.status(404).json({message:'Service not found'});res.json(d);});
+router.delete('/admin/:id',protect,adminOnly,async(req,res)=>{const d=await GovService.findByIdAndDelete(req.params.id);if(!d)return res.status(404).json({message:'Service not found'});res.json({ok:true});});
+export default router;

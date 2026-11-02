@@ -1,0 +1,1181 @@
+
+/* ============================================
+   JONOSEBA - CITIZEN COMPLAINT SYSTEM
+   Complete Responsive CSS
+   Citizen + Admin Complaint Pages
+   ============================================ */
+
+/* ---------- Main Page ---------- */
+
+.cmp-page {
+  min-height: 100vh;
+  padding-bottom: 65px;
+  background: #f3f6fa;
+  color: #17324a;
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.cmp-page *,
+.cmp-page *::before,
+.cmp-page *::after {
+  box-sizing: border-box;
+}
+
+.cmp-page button,
+.cmp-page input,
+.cmp-page select,
+.cmp-page textarea {
+  font-family: inherit;
+}
+
+.cmp-page button {
+  cursor: pointer;
+}
+
+.cmp-page button:disabled {
+  cursor: not-allowed;
+  opacity: 0.58;
+}
+
+/* ---------- Hero Section ---------- */
+
+.cmp-hero {
+  background: linear-gradient(
+    115deg,
+    #102f4c 0%,
+    #105847 60%,
+    #087e56 100%
+  );
+  padding: 43px 0 49px;
+  color: #ffffff;
+}
+
+.cmp-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #bdf4da;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+}
+
+.cmp-hero h1 {
+  color: #ffffff;
+  font-size: clamp(29px, 3vw, 40px);
+  line-height: 1.3;
+  font-weight: 800;
+  margin: 13px 0 12px;
+}
+
+.cmp-hero p {
+  max-width: 780px;
+  margin: 0;
+  color: #e2f5ed;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* ---------- Main Container ---------- */
+
+.cmp-container {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding-top: 28px;
+  padding-bottom: 25px;
+  min-width: 0;
+}
+
+/* ---------- Main Cards ---------- */
+
+.cmp-card {
+  width: 100%;
+  min-width: 0;
+  padding: 30px;
+  border: 1px solid #dfe8ef;
+  border-radius: 17px;
+  background: #ffffff;
+  box-shadow: 0 6px 24px rgba(17, 49, 75, 0.055);
+}
+
+.cmp-card h2 {
+  margin: 0 0 10px;
+  color: #17344e;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.cmp-card h3 {
+  margin: 24px 0 15px;
+  color: #193b54;
+  font-size: 19px;
+  font-weight: 750;
+  line-height: 1.45;
+}
+
+.cmp-card p {
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.cmp-card small {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* ---------- Login Required Card ---------- */
+
+.cmp-login {
+  padding: 48px 25px;
+  text-align: center;
+}
+
+.cmp-login > i {
+  display: block;
+  margin-bottom: 20px;
+  color: #0c9563;
+  font-size: 43px;
+}
+
+.cmp-login h2 {
+  margin-bottom: 12px;
+}
+
+.cmp-login p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #6a7f90;
+  font-size: 16px;
+}
+
+.cmp-login .cmp-actions {
+  justify-content: center;
+  margin-top: 24px;
+}
+
+/* ---------- Section Headings ---------- */
+
+.cmp-section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.cmp-section-head h2 {
+  margin-bottom: 7px;
+}
+
+.cmp-section-head p {
+  margin: 0;
+  color: #718598;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* ---------- Buttons ---------- */
+
+.cmp-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.cmp-primary,
+.cmp-outline {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  min-height: 46px;
+  padding: 12px 19px;
+
+  border-radius: 10px;
+  text-decoration: none;
+
+  font-size: 15px;
+  font-weight: 750;
+  line-height: 1.4;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.cmp-primary {
+  border: 1px solid #0b8f5e;
+  background: #0b8f5e;
+  color: #ffffff;
+}
+
+.cmp-primary:hover {
+  border-color: #08764c;
+  background: #08764c;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(8, 118, 76, 0.15);
+}
+
+.cmp-outline {
+  border: 1px solid #cbd9e3;
+  background: #ffffff;
+  color: #25465e;
+}
+
+.cmp-outline:hover {
+  background: #f0f7f4;
+  border-color: #a9cdbc;
+  color: #08764c;
+}
+
+.cmp-primary:focus-visible,
+.cmp-outline:focus-visible,
+.cmp-page button:focus-visible {
+  outline: 3px solid rgba(16, 160, 105, 0.3);
+  outline-offset: 3px;
+}
+
+/* ---------- Citizen Tabs ---------- */
+
+.cmp-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 9px;
+  border: 1px solid #e0e8ef;
+  border-radius: 13px;
+  background: #ffffff;
+}
+
+.cmp-tabs button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  padding: 13px 21px;
+  border: 0;
+  border-radius: 9px;
+
+  background: transparent;
+  color: #557086;
+
+  font-size: 15px;
+  font-weight: 750;
+
+  transition: background 0.2s ease;
+}
+
+.cmp-tabs button:hover {
+  background: #f0f6f3;
+}
+
+.cmp-tabs button.active {
+  background: #e3f5ec;
+  color: #08764c;
+}
+
+/* ---------- Form Section Dividers ---------- */
+
+.cmp-subheading {
+  margin: 28px 0 17px !important;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e4ebf0;
+  color: #193b54;
+  font-size: 19px !important;
+  font-weight: 800;
+}
+
+/* ---------- Category Selection ---------- */
+
+.cmp-categories {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 12px;
+  width: 100%;
+}
+
+.cmp-categories button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+
+  min-width: 0;
+  min-height: 110px;
+  padding: 15px 9px;
+
+  border: 1px solid #d9e5ed;
+  border-radius: 13px;
+
+  background: #f9fbfd;
+  color: #36536a;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.45;
+  text-align: center;
+  overflow-wrap: anywhere;
+
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.cmp-categories button i {
+  color: #0b9062;
+  font-size: 27px;
+  line-height: 1.2;
+}
+
+.cmp-categories button span {
+  display: block;
+  width: 100%;
+}
+
+.cmp-categories button:hover {
+  background: #f0faf5;
+  border-color: #7dc5a2;
+  transform: translateY(-2px);
+}
+
+.cmp-categories button.active {
+  border: 2px solid #0c9c65;
+  background: #e3f5eb;
+  color: #066d46;
+  font-weight: 800;
+}
+
+.cmp-categories button.active i {
+  color: #078c59;
+}
+
+/* ---------- Complaint Form Grid ---------- */
+
+.cmp-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+.cmp-form-grid label {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  min-width: 0;
+
+  color: #24445b;
+  font-size: 15px;
+  font-weight: 750;
+  line-height: 1.5;
+}
+
+.cmp-form-grid .cmp-full {
+  grid-column: 1 / -1;
+}
+
+/* ---------- Form Inputs ---------- */
+
+.cmp-form-grid input,
+.cmp-form-grid select,
+.cmp-form-grid textarea,
+.cmp-reopen textarea,
+.cmp-filters input,
+.cmp-filters select {
+  display: block;
+  width: 100%;
+  min-width: 0;
+
+  border: 1px solid #cedde7;
+  border-radius: 10px;
+
+  background: #ffffff;
+  color: #19394e;
+
+  padding: 13px 15px;
+
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 450;
+  line-height: 1.55;
+
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.cmp-form-grid input,
+.cmp-form-grid select {
+  min-height: 51px;
+}
+
+.cmp-form-grid textarea {
+  min-height: 145px;
+  resize: vertical;
+}
+
+.cmp-form-grid input::placeholder,
+.cmp-form-grid textarea::placeholder,
+.cmp-filters input::placeholder {
+  color: #8999a7;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 1;
+}
+
+.cmp-form-grid input:focus,
+.cmp-form-grid select:focus,
+.cmp-form-grid textarea:focus,
+.cmp-reopen textarea:focus,
+.cmp-filters input:focus,
+.cmp-filters select:focus {
+  border-color: #0d9a65;
+  box-shadow: 0 0 0 3px rgba(13, 154, 101, 0.11);
+}
+
+.cmp-form-grid input[type="file"] {
+  min-height: 54px;
+  padding: 11px 13px;
+  background: #f9fbfd;
+  cursor: pointer;
+}
+
+.cmp-form-grid input[type="file"]::file-selector-button {
+  border: 1px solid #bed8c9;
+  border-radius: 7px;
+  background: #e7f5ed;
+  color: #076c47;
+
+  padding: 8px 13px;
+  margin-right: 12px;
+
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cmp-form-grid small {
+  color: #738899;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* ---------- Submit Button ---------- */
+
+.cmp-submit {
+  min-width: 240px;
+  min-height: 49px;
+  margin-top: 28px;
+  padding: 13px 24px;
+  font-size: 16px;
+}
+
+/* ---------- Error / Success Notices ---------- */
+
+.cmp-error,
+.cmp-success {
+  margin-bottom: 17px;
+  padding: 17px 19px;
+  border-radius: 11px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.cmp-error {
+  border: 1px solid #e9bcb0;
+  background: #fff1eb;
+  color: #9c3e23;
+}
+
+.cmp-success {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+
+  border: 1px solid #b5e2c8;
+  background: #e9f8f0;
+  color: #106b47;
+}
+
+.cmp-success > i {
+  margin-top: 3px;
+  font-size: 21px;
+}
+
+.cmp-success strong {
+  display: block;
+  font-size: 16px;
+}
+
+.cmp-success p {
+  margin: 9px 0 4px;
+  font-size: 14px;
+}
+
+.cmp-success button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 14px;
+  padding: 10px 14px;
+
+  border: 1px solid #88cda8;
+  border-radius: 8px;
+
+  background: #ffffff;
+  color: #086a44;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.cmp-tracking-id {
+  display: block;
+  color: #076e49;
+  font-size: 18px !important;
+  font-weight: 800;
+  overflow-wrap: anywhere;
+}
+
+/* ---------- Empty State ---------- */
+
+.cmp-empty {
+  padding: 42px 20px;
+  border: 1px dashed #cddde7;
+  border-radius: 12px;
+
+  background: #fafcfd;
+  color: #72899b;
+
+  text-align: center;
+  font-size: 15px;
+}
+
+.cmp-empty i {
+  display: block;
+  margin-bottom: 13px;
+  font-size: 34px;
+  color: #8ca9bb;
+}
+
+.cmp-empty p {
+  margin: 0;
+}
+
+/* ---------- Complaint List ---------- */
+
+.cmp-complaint-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.cmp-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+
+  width: 100%;
+  padding: 19px 20px;
+
+  border: 1px solid #dfe9ef;
+  border-radius: 12px;
+
+  background: #fafcfd;
+  text-align: left;
+
+  font-family: inherit;
+  font-size: 15px;
+
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.cmp-list-item:hover {
+  background: #f0faf5;
+  border-color: #72bd9a;
+}
+
+.cmp-list-item.active {
+  background: #e9f8f0;
+  border-color: #0c9663;
+}
+
+.cmp-list-item > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  flex: 1;
+  min-width: 0;
+}
+
+.cmp-list-item strong {
+  color: #1e3c54;
+  font-size: 16px;
+  font-weight: 750;
+  overflow-wrap: anywhere;
+}
+
+.cmp-list-item small {
+  color: #788d9d;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.cmp-id {
+  color: #09865a;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+
+/* ---------- Status Badges ---------- */
+
+.cmp-status {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+  max-width: 100%;
+
+  padding: 8px 13px;
+  border-radius: 30px;
+
+  background: #edf1f5;
+  color: #526b7e;
+
+  font-size: 13px;
+  font-weight: 750;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.cmp-status.pending {
+  background: #fff1d0;
+  color: #936100;
+}
+
+.cmp-status.in_progress {
+  background: #e4f0ff;
+  color: #155da9;
+}
+
+.cmp-status.resolved {
+  background: #e1f6e9;
+  color: #087443;
+}
+
+.cmp-status.rejected {
+  background: #ffebeb;
+  color: #ae3434;
+}
+
+.cmp-status.reopened {
+  background: #efe8ff;
+  color: #7044a8;
+}
+
+/* ---------- Selected Complaint Detail ---------- */
+
+.cmp-detail {
+  margin-top: 28px;
+  padding-top: 25px;
+  border-top: 1px solid #dce7ef;
+}
+
+.cmp-detail > p {
+  color: #445f74;
+  font-size: 15px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+.cmp-detail .cmp-section-head {
+  margin-bottom: 16px;
+}
+
+/* ---------- Complaint Description ---------- */
+
+.cmp-description,
+.cmp-admin-message {
+  margin: 19px 0;
+  padding: 20px;
+
+  border: 1px solid #dfe9ee;
+  border-radius: 12px;
+
+  background: #f8fbfc;
+}
+
+.cmp-description strong,
+.cmp-admin-message strong {
+  color: #1b3e57;
+  font-size: 16px;
+}
+
+.cmp-description p,
+.cmp-admin-message p {
+  margin: 9px 0 0;
+  color: #506c80;
+  font-size: 15px;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+
+/* ---------- Complaint Photo ---------- */
+
+.cmp-photo {
+  margin: 22px 0;
+}
+
+.cmp-photo strong {
+  display: block;
+  margin-bottom: 12px;
+  color: #1d4058;
+  font-size: 16px;
+}
+
+.cmp-photo img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 390px;
+
+  border: 1px solid #d8e5ed;
+  border-radius: 12px;
+
+  background: #f7f9fb;
+  object-fit: contain;
+}
+
+/* ---------- Timeline ---------- */
+
+.cmp-timeline {
+  margin-top: 26px;
+}
+
+.cmp-timeline h3 {
+  margin-bottom: 20px;
+}
+
+.cmp-timeline > div {
+  position: relative;
+
+  margin-left: 9px;
+  padding: 1px 0 22px 23px;
+
+  border-left: 3px solid #23a976;
+}
+
+.cmp-timeline > div::before {
+  content: "";
+  position: absolute;
+
+  top: 4px;
+  left: -8px;
+
+  width: 13px;
+  height: 13px;
+
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+
+  background: #0c9863;
+  box-shadow: 0 0 0 1px #0c9863;
+}
+
+.cmp-timeline > div:last-child {
+  padding-bottom: 8px;
+}
+
+.cmp-timeline strong {
+  display: block;
+  color: #24465e;
+  font-size: 15px;
+  font-weight: 750;
+}
+
+.cmp-timeline small {
+  display: block;
+  margin-top: 3px;
+  color: #8396a5;
+  font-size: 13px;
+}
+
+.cmp-timeline p {
+  margin: 7px 0 0;
+  color: #566f82;
+  font-size: 14px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+/* ---------- Reopen Complaint ---------- */
+
+.cmp-reopen {
+  margin-top: 22px;
+  padding: 21px;
+
+  border: 1px solid #e0e9ef;
+  border-radius: 12px;
+  background: #f7f9fc;
+}
+
+.cmp-reopen h3 {
+  margin-top: 0;
+}
+
+.cmp-reopen textarea {
+  min-height: 115px;
+  margin: 13px 0;
+  resize: vertical;
+}
+
+/* ---------- Admin Statistics ---------- */
+
+.cmp-stats {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.cmp-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+
+  min-width: 0;
+  padding: 22px 20px;
+
+  border: 1px solid #dfe9ef;
+  border-radius: 13px;
+
+  background: #ffffff;
+  box-shadow: 0 4px 16px rgba(17, 49, 75, 0.04);
+}
+
+.cmp-stat strong {
+  color: #09865a;
+  font-size: 31px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.cmp-stat span {
+  color: #607b90;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* ---------- Admin Filters ---------- */
+
+.cmp-filters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.cmp-filters form {
+  display: flex;
+  flex: 1;
+  gap: 9px;
+  min-width: 270px;
+}
+
+.cmp-filters form input {
+  flex: 1;
+  min-width: 0;
+}
+
+.cmp-filters select {
+  width: auto;
+  min-width: 170px;
+  min-height: 49px;
+}
+
+.cmp-filters .cmp-primary {
+  flex-shrink: 0;
+}
+
+/* ---------- Admin Information Grid ---------- */
+
+.cmp-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.cmp-info-grid > div {
+  min-width: 0;
+  padding: 18px;
+
+  border: 1px solid #e0e9ef;
+  border-radius: 11px;
+  background: #f9fbfd;
+}
+
+.cmp-info-grid strong {
+  display: block;
+  color: #25455d;
+  font-size: 15px;
+  font-weight: 750;
+}
+
+.cmp-info-grid p {
+  margin: 7px 0 0;
+  color: #506b7f;
+  font-size: 15px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.cmp-info-grid small {
+  color: #7a8fa0;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+/* ---------- Helper Text ---------- */
+
+.cmp-helper {
+  margin-top: 13px;
+  color: #6b8090;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ============================================
+   TABLET RESPONSIVE
+   ============================================ */
+
+@media (max-width: 1100px) {
+  .cmp-categories {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .cmp-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* ============================================
+   MOBILE RESPONSIVE
+   ============================================ */
+
+@media (max-width: 700px) {
+  .cmp-page {
+    padding-bottom: 38px;
+    font-size: 14px;
+  }
+
+  .cmp-hero {
+    padding: 30px 0 36px;
+  }
+
+  .cmp-hero h1 {
+    font-size: 27px;
+  }
+
+  .cmp-hero p {
+    font-size: 14px;
+  }
+
+  .cmp-eyebrow {
+    font-size: 11px;
+  }
+
+  .cmp-container {
+    gap: 16px;
+    padding-top: 18px;
+  }
+
+  .cmp-card {
+    padding: 20px 17px;
+    border-radius: 13px;
+  }
+
+  .cmp-card h2 {
+    font-size: 22px;
+  }
+
+  .cmp-card h3,
+  .cmp-subheading {
+    font-size: 17px !important;
+  }
+
+  .cmp-card p,
+  .cmp-section-head p {
+    font-size: 14px;
+  }
+
+  .cmp-tabs {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cmp-tabs button {
+    padding: 12px 9px;
+    font-size: 13px;
+  }
+
+  .cmp-categories {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 9px;
+  }
+
+  .cmp-categories button {
+    min-height: 102px;
+    padding: 12px 6px;
+    font-size: 12px;
+  }
+
+  .cmp-categories button i {
+    font-size: 24px;
+  }
+
+  .cmp-form-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .cmp-form-grid label {
+    font-size: 14px;
+  }
+
+  .cmp-form-grid input,
+  .cmp-form-grid select,
+  .cmp-form-grid textarea {
+    font-size: 16px;
+  }
+
+  .cmp-form-grid input::placeholder,
+  .cmp-form-grid textarea::placeholder {
+    font-size: 14px;
+  }
+
+  .cmp-submit {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .cmp-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .cmp-stat {
+    padding: 17px;
+  }
+
+  .cmp-stat strong {
+    font-size: 27px;
+  }
+
+  .cmp-stat span {
+    font-size: 12px;
+  }
+
+  .cmp-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cmp-list-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .cmp-list-item strong {
+    font-size: 15px;
+  }
+
+  .cmp-status {
+    font-size: 12px;
+  }
+
+  .cmp-filters form {
+    flex-basis: 100%;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .cmp-filters select {
+    flex: 1;
+    min-width: 0;
+    font-size: 14px;
+  }
+
+  .cmp-primary,
+  .cmp-outline {
+    font-size: 14px;
+    padding: 11px 14px;
+  }
+
+  .cmp-section-head {
+    gap: 12px;
+  }
+}
+
+/* ============================================
+   VERY SMALL MOBILE SCREENS
+   ============================================ */
+
+@media (max-width: 390px) {
+  .cmp-categories {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cmp-categories button {
+    min-height: 91px;
+  }
+
+  .cmp-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cmp-filters form {
+    flex-wrap: wrap;
+  }
+
+  .cmp-filters form input,
+  .cmp-filters form button {
+    width: 100%;
+  }
+}
+
+/* ---------- Accessibility ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .cmp-page *,
+  .cmp-page *::before,
+  .cmp-page *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
